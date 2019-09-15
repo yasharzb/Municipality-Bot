@@ -1,10 +1,9 @@
 package ir.sapp.bot.municipality.model.entity;
 
-import ir.sapp.bot.municipality.model.UserState;
+import ir.sapp.bot.municipality.model.internal.UserState;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 import java.util.ArrayList;
 
 @Entity

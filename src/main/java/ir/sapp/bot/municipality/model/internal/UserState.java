@@ -1,4 +1,4 @@
-package ir.sapp.bot.municipality.model;
+package ir.sapp.bot.municipality.model.internal;
 
 public class UserState {
     private UserStep step;

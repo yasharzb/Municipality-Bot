@@ -1,4 +1,4 @@
-package ir.sapp.bot.municipality.model;
+package ir.sapp.bot.municipality.model.internal;
 
 public enum UserStep {
     BLOCK_NUMBER(Integer.class);

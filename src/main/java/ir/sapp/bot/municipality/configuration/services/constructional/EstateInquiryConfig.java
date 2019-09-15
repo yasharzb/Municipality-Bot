@@ -1,8 +1,8 @@
-package ir.sapp.bot.municipality.configuration.constructional;
+package ir.sapp.bot.municipality.configuration.services.constructional;
 
 import ir.sapp.bot.municipality.configuration.APIConfig.ConstructionalConfig;
-import ir.sapp.bot.municipality.model.services.constructional.EstateInquiry.EstateInquiryRequestProcessor;
-import ir.sapp.bot.municipality.model.services.constructional.EstateInquiry.EstateInquiryResponseProcessor;
+import ir.sapp.bot.municipality.services.constructional.EstateInquiry.EstateInquiryRequestProcessor;
+import ir.sapp.bot.municipality.services.constructional.EstateInquiry.EstateInquiryResponseProcessor;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

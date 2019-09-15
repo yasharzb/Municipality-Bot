@@ -8,4 +8,5 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties(prefix = "municipality.constructional")
 @Getter
 public class ConstructionalConfig {
+    private String faultApi;
 }
